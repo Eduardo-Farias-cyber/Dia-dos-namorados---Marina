@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta Para Marina</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Georgia', serif;
+      background-color: #7a1f28;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: #a0303a;
+      padding: 40px;
+      max-width: 800px;
+      border-radius: 12px;
+      position: relative;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+
+    p {
+      line-height: 1.8em;
+      font-size: 1.1em;
+      text-align: justify;
+    }
+
+    .assinatura {
+      text-align: right;
+      margin-top: 30px;
+      font-style: italic;
+    }
+
+    img {
+      position: absolute;
+      width: 140px;
+      border-radius: 12px;
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .foto1 { top: -40px; left: -60px; }
+    .foto2 { top: -40px; right: -60px; }
+    .foto3 { bottom: -60px; left: -60px; }
+    .foto4 { bottom: -60px; right: -60px; }
+
+    @media (max-width: 850px) {
+      img {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Carta Para Marina</h1>
+    <p>
+      Marina,<br><br>
+      Hoje é Dia dos Namorados, e eu queria aproveitar pra te dizer o que talvez eu não diga o suficiente: eu amo você.<br>
+      A gente se conheceu há pouco tempo, mas, desde então, muita coisa mudou. Você entrou na minha vida de um jeito simples, mas deixou tudo diferente. E não falo isso pra impressionar — falo porque é real.<br><br>
+      Gosto da sua presença, das conversas, dos momentos tranquilos e até dos silêncios que fazem sentido quando estou com você. Não preciso fingir nada perto de você, e isso é raro.<br><br>
+      Obrigado por ser quem você é, por me dar espaço, por me olhar do jeito que olha. Temos apenas 15 anos, muito pela frente ainda, mas já é incrível do seu próprio jeito. E eu admiro isso mais do que consigo dizer em palavras.<br><br>
+      Feliz Dia dos Namorados, Marina. Que esse seja o primeiro de muitos.<br>
+      E que a gente continue sendo nós, do jeito certo, no tempo certo.
+    </p>
+    <p class="assinatura">
+      Com carinho,<br>
+      Eduardo (seu amor)
+    </p>
+    <img src="foto_marina_quarto.jpg" alt="Foto Marina Quarto" class="foto1">
+    <img src="foto_marina_escopo.jpg" alt="Foto Marina Escopo" class="foto2">
+    <img src="foto_marina_piscina.jpg" alt="Foto Marina Piscina" class="foto3">
+    <img src="foto_marina_aniversario.jpg" alt="Foto Marina Aniversário" class="foto4">
+  </div>
+</body>
+</html>

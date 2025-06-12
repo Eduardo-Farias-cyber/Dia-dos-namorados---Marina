@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(255, 185, 187);
+    text-align: center;
+    color: whitesmoke;
+
+}
+#main_login {
+    display: list-item;
+}
+
+#main_login {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(255, 185, 187);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.avatar {
+    background: rgba(255, 255, 255, 0.1);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-image: url('https://img.icons8.com/ios-filled/100/ffffff/user-male-circle.png');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
+.options a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.options input {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background: linear-gradient(to right, #cc0000, #a33241);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.login-content {
+    background: linear-gradient(145deg, rgb(255, 0, 21), rgb(255, 23, 58));
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 300px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 60px rgba(255, 86, 86, 0.482);
+    color: white;
+    position: relative;
+}
+
+#footer_login {
+    text-align: left;
+}
+#Para_Marina {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, rgb(255, 255, 255), #992100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+#Icon_Perfil{
+    width: 100px;
+    border-radius: 100%;
+}

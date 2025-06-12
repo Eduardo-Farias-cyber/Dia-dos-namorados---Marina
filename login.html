@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dia dos Namorados | Login</title>
+  <link rel="stylesheet" href="style_Login.css">
+  <link rel="icon" href="assets/Logo.svg">
+</head>
+<body>
+    <h1>LOGIN</h1>
+    <main id="main_login">
+        
+        <div class="login-content">
+            <label id="Frase" for="">Preencha Tudo</label>
+            <div class="avatar"><img id="Icon_Perfil" src="assets/Icon_Perfil.svg" alt="Icon_Perfil"></div>
+            <form class="login-form">
+              <label for="Nome"><span>📧</span> Nome</label>
+              <input type="text" id="name" placeholder="Seu nome" required />
+        
+              <label for="password"><span>🔒</span> Password</label>
+              <input type="password" id="password" placeholder="password" required />
+        
+              <div class="options">
+                <label><input type="checkbox" /> Salvar Cadastro</label>
+                <a href="esqueceu_senha.html">Esqueceu a senha?</a>
+              </div>
+        
+              <button id="login-button">LOGIN</button>
+            </form>
+          </div>
+    </main>
+    <footer id="footer_login"><h1 id="Para_Marina">Marina</h1></footer>
+  <script src="script_login.js"></script>
+</body>
+</html>
